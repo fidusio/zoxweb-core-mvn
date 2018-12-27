@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.zoxweb</groupId>
+    <artifactId>zoxweb-core-mvn</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>zoxweb-core-mvn</name>
+
+    <properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    	<jdk.version>1.8</jdk.version>
+    	<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+        <maven-javadoc.version>2.10.4</maven-javadoc.version>
+        <maven-plugin.version>3.6.1</maven-plugin.version>
+        <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
+        <zoxweb-core.version>2.1.4</zoxweb-core.version>
+        
+    </properties>
+
+    <build>
+       
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-plugin.version}</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>${maven-plugin-source.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven-javadoc.version}</version>
+                <configuration>
+                    <failOnError>false</failOnError>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.zoxweb</groupId>
+                <artifactId>zoxweb-core</artifactId>
+                <version>${zoxweb-core.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+
+</project>
