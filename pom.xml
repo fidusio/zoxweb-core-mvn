@@ -16,6 +16,7 @@
         <maven-plugin.version>3.6.1</maven-plugin.version>
         <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
         <zoxweb-core.version>2.1.4</zoxweb-core.version>
+        <junit.version>4.12</junit.version>
         
     </properties>
 
@@ -71,6 +72,12 @@
                 <artifactId>zoxweb-core</artifactId>
                 <version>${zoxweb-core.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
 
