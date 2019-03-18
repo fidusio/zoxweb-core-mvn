@@ -34,7 +34,7 @@
         <javax-mail.version>1.6.2</javax-mail.version>
         <jsoup.version>1.11.3</jsoup.version>
         <javax-servlet.version>4.0.1</javax-servlet.version>
-        <mongo.version>3.9.1</mongo.version>
+        <mongo.version>3.10.1</mongo.version>
         <org.ehcache.version>3.6.3</org.ehcache.version> 
         <websocket.version>1.1</websocket.version>
         <zoxweb-core.version>2.1.9</zoxweb-core.version>
