@@ -36,7 +36,7 @@
         <javax-servlet.version>4.0.1</javax-servlet.version>
         <mongo.version>3.10.1</mongo.version>
         <websocket.version>1.1</websocket.version>
-        <zoxweb-core.version>2.2.1</zoxweb-core.version>
+        <zoxweb-core.version>2.2.2</zoxweb-core.version>
     </properties>
 
     <build>
