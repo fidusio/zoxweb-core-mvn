@@ -13,7 +13,7 @@
     	<jdk.version>1.8</jdk.version>
     	<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <maven-javadoc.version>2.10.4</maven-javadoc.version>
-        <maven-plugin.version>3.6.1</maven-plugin.version>
+        <maven-plugin.version>3.6.2</maven-plugin.version>
         <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
        	<junit.version>4.12</junit.version>
        	
