@@ -40,7 +40,7 @@
         <javax-mail.version>1.6.4</javax-mail.version>
         <jsoup.version>1.12.2</jsoup.version>
         <javax-servlet.version>4.0.1</javax-servlet.version>
-        <mongo.version>3.11.2</mongo.version>
+        <mongo.version>3.12.1</mongo.version>
         <snakeyaml.version>1.24</snakeyaml.version>
         <websocket.version>1.1</websocket.version>
         <zoxweb-core.version>2.2.3</zoxweb-core.version>
