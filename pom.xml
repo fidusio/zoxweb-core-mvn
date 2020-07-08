@@ -21,7 +21,7 @@
         <maven-javadoc.version>2.10.4</maven-javadoc.version>
         <maven-plugin.version>3.6.2</maven-plugin.version>
         <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
-       	<junit.version>4.12</junit.version>
+       	<junit.version>5.6.2</junit.version>
        	
        	
         <glassfish.tyrus.bundles.version>1.12</glassfish.tyrus.bundles.version>
@@ -100,8 +100,8 @@
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
