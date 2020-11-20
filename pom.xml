@@ -24,7 +24,7 @@
        	<junit.version>5.6.2</junit.version>
         <glassfish.tyrus.bundles.version>1.12</glassfish.tyrus.bundles.version>
         <glassfish.tyrus.version>1.2.1</glassfish.tyrus.version>
-        <apache-shiro.version>1.6.0</apache-shiro.version>
+        <apache-shiro.version>1.7.0</apache-shiro.version>
         <apache.derby.version>10.14.2.0</apache.derby.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <common.logging.version>1.2</common.logging.version>
