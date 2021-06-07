@@ -38,7 +38,7 @@
         <jsoup.version>1.13.1</jsoup.version>
         <javax-servlet.version>4.0.1</javax-servlet.version>
         <mongo.version>3.12.1</mongo.version>
-        <snakeyaml.version>1.24</snakeyaml.version>
+        <snakeyaml.version>1.26</snakeyaml.version>
         <websocket.version>1.1</websocket.version>
         <zoxweb-core.version>2.2.4</zoxweb-core.version>
         <xlogistx-version>1.0.0</xlogistx-version>
