@@ -35,7 +35,7 @@
         <mongo.version>4.3.2</mongo.version>
         <snakeyaml.version>1.30</snakeyaml.version>
         <websocket.version>1.1</websocket.version>
-        <zoxweb-core.version>2.2.5</zoxweb-core.version>
+        <zoxweb-core.version>2.2.7</zoxweb-core.version>
         <xlogistx-version>1.0.0</xlogistx-version>
     </properties>
 
