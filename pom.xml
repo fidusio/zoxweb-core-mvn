@@ -20,8 +20,8 @@
        	<junit.version>5.9.0</junit.version>
         <mockito.version>4.8.1</mockito.version>
 
-        <apache-shiro.version>1.9.0</apache-shiro.version>
         <apache.derby.version>10.14.2.0</apache.derby.version>
+        <apache.shiro.version>1.10.1</apache.shiro.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <common.logging.version>1.2</common.logging.version>
         <ehcache-org.version>3.9.10</ehcache-org.version>
@@ -37,13 +37,13 @@
         <javax-servlet.version>4.0.1</javax-servlet.version>
         <mgwt.version>2.0.0</mgwt.version>
         <mongo.version>4.7.2</mongo.version>
-        <slf4j.version>2.0.3</slf4j.version>
+        <slf4j.version>2.0.5</slf4j.version>
         <snakeyaml.version>1.33</snakeyaml.version>
         <websocket.version>1.1</websocket.version>
         <zoxweb-core.version>2.3.3</zoxweb-core.version>
         <zoxweb-datastore.version>1.0.0</zoxweb-datastore.version>
         <zoxweb-gwt.version>2.0.8</zoxweb-gwt.version>
-        <xlogistx-version>1.0.0</xlogistx-version>
+        <xlogistx.version>1.0.0</xlogistx.version>
     </properties>
 
     <build>
