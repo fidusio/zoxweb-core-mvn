@@ -21,7 +21,7 @@
         <mockito.version>4.8.1</mockito.version>
 
         <apache.derby.version>10.14.2.0</apache.derby.version>
-        <apache.shiro.version>1.10.1</apache.shiro.version>
+        <apache.shiro.version>1.11.0</apache.shiro.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <common.logging.version>1.2</common.logging.version>
         <ehcache-org.version>3.9.10</ehcache-org.version>
