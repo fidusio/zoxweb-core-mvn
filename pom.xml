@@ -22,7 +22,7 @@
 
         <apache.derby.version>10.14.2.0</apache.derby.version>
         <apache.shiro.version>1.11.0</apache.shiro.version>
-        <commons-fileupload.version>1.4</commons-fileupload.version>
+        <commons-fileupload.version>1.5</commons-fileupload.version>
         <common.logging.version>1.2</common.logging.version>
         <ehcache-org.version>3.9.10</ehcache-org.version>
         <glassfish.tyrus.bundles.version>1.12</glassfish.tyrus.bundles.version>
