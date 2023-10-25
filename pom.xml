@@ -17,7 +17,7 @@
         <maven-plugin.version>3.6.2</maven-plugin.version>
         <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
 
-       	<junit.version>5.9.0</junit.version>
+       	<junit.version>5.9.2</junit.version>
         <mockito.version>4.8.1</mockito.version>
 
         <apache.derby.version>10.14.2.0</apache.derby.version>
@@ -33,7 +33,7 @@
         <hibernate.version>6.1.5.Final</hibernate.version>
         <javax-cache.version>1.1.1</javax-cache.version>
         <javax-mail.version>2.0.1</javax-mail.version>
-        <jsoup.version>1.15.3</jsoup.version>
+        <jsoup.version>1.15.4</jsoup.version>
         <javax-servlet.version>4.0.1</javax-servlet.version>
         <mgwt.version>2.0.0</mgwt.version>
         <mongo.version>4.7.2</mongo.version>
