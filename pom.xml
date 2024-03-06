@@ -30,10 +30,10 @@
         <gson.version>2.10.1</gson.version>
         <gwt.version>2.11.0</gwt.version>
         <gwt.phonegap.version>3.5.0.1</gwt.phonegap.version>
-        <hibernate.version>6.1.5.Final</hibernate.version>
+        <hibernate.version>6.4.4.Final</hibernate.version>
         <javax-cache.version>1.1.1</javax-cache.version>
         <javax-mail.version>2.0.1</javax-mail.version>
-        <jsoup.version>1.15.4</jsoup.version>
+        <jsoup.version>1.17.2</jsoup.version>
         <javax-servlet.version>4.0.1</javax-servlet.version>
         <mgwt.version>2.0.0</mgwt.version>
         <mongo.version>4.7.2</mongo.version>
