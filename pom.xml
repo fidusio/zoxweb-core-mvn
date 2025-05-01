@@ -11,7 +11,7 @@
 
     <properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<jdk.version>1.8</jdk.version>
+    	<jdk.version>8</jdk.version>
     	<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <maven-javadoc.version>2.10.4</maven-javadoc.version>
         <maven-plugin.version>3.6.2</maven-plugin.version>
@@ -98,7 +98,7 @@
                 <groupId>org.zoxweb</groupId>
                 <artifactId>zoxweb-core</artifactId>
                 <version>${zoxweb-core.version}</version>
-                <scope>provided</scope>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
