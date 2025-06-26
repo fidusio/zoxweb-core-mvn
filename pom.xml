@@ -45,6 +45,7 @@
         <zoxweb-datastore.version>1.0.0</zoxweb-datastore.version>
         <zoxweb-gwt.version>2.0.8</zoxweb-gwt.version>
         <xlogistx.version>1.0.0</xlogistx.version>
+        <okhttp.version>4.12.0</okhttp.version>
     </properties>
 
     <build>
