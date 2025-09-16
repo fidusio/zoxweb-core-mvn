@@ -12,10 +12,22 @@
     <properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     	<jdk.version>8</jdk.version>
-    	<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
-        <maven-javadoc.version>2.10.4</maven-javadoc.version>
+
+
         <maven-plugin.version>3.6.2</maven-plugin.version>
         <maven-plugin-source.version>3.0.1</maven-plugin-source.version>
+
+
+        <skipTests>true</skipTests>
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <maven-plugin-source.version>3.3.1</maven-plugin-source.version>
+        <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <maven-shade-plugin.version>3.2.0</maven-shade-plugin.version>
+        <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <maven-javadoc.version>3.4.1</maven-javadoc.version>
+        <exec-maven.version>3.5.2</exec-maven.version>
+
 
        	<junit.version>5.12.0</junit.version>
         <mockito.version>RELEASE</mockito.version>
@@ -45,7 +57,7 @@
         <zoxweb-datastore.version>1.0.0</zoxweb-datastore.version>
         <zoxweb-gwt.version>2.0.8</zoxweb-gwt.version>
         <xlogistx.version>1.0.0</xlogistx.version>
-        <okhttp.version>4.12.0</okhttp.version>
+<!--        <okhttp.version>4.12.0</okhttp.version>-->
     </properties>
 
     <build>
